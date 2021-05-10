@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="video">
+      <video
+        loop=""
+        muted=""
+        autoplay=""
+        poster="599282e42037915de44f4b24.jpg"
+        class="bgvideo"
+      >
+        <source src="Pixel - 20495.mp4" />
+      </video>
+    </div>
+
+    <div class="secretModal">
+      <form action="">
+        <h2>Загадай слово другу!</h2>
+        <hr class="prpl" />
+        <input type="text" placeholder="Писать сюда!" id="entrName" />
+        <button id="entrNameBtn">ОК</button>
+      </form>
+    </div>
+
+    <div class="settings">
+      <form action="">
+        <h2>Настройки</h2>
+        <hr class="prpl" />
+        <button class="multiplayer">Мультиплеер</button>
+        <button class="singleplayer">Одиночная</button>
+      </form>
+    </div>
+    <div class="a">
+      <h1>ВИСЕЛИЦА</h1>
+      <hr class="yll" />
+      <p>Количество попыток:<span class="attempts">10</span></p>
+      <input type="text" class="word" />
+      <input type="text" class="letter" maxlength="1" />
+      <p>Использованные буквы: <span class="used"></span></p>
+      <hr class="yll" />
+      <button class="start">Начать игру</button><br />
+      <button class="check">Проверить букву</button><br />
+      <button class="setBtn">Настройки</button>
+      <script src="script.js" type="module"></script>
+    </div>
+  </body>
+</html>
