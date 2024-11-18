@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Comfortaa", cursive;
+}
+.video {
+  overflow: hidden;
+  z-index: -100;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -9999;
+}
+.a {
+  margin: auto;
+  margin-top: 15%;
+  max-width: 700px;
+  width: 90%;
+  text-align: center;
+  background: #00000099;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: yellow;
+  backdrop-filter: blur(10px);
+}
+h1 {
+  text-align: center;
+  font-size: 44px;
+  color: white;
+}
+.yll {
+  background-color: yellow;
+  height: 15px;
+  border: none;
+}
+p {
+  color: white;
+}
+.word {
+  padding-top: 10px;
+  height: 30px;
+  width: 250px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  border-width: 2px;
+  border-color: yellow;
+  font-size: 25px;
+  border-style: solid;
+  font-family: "Comfortaa", cursive;
+}
+.letter {
+  text-align: center;
+  width: 250px;
+  height: 30px;
+  background-color: white;
+  border-radius: 10px;
+  display: block;
+  margin: 10px auto;
+  border-width: 2px;
+  border-color: yellow;
+  font-size: 25px;
+  border-style: solid;
+  font-family: "Comfortaa", cursive;
+}
+.start {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border-width: 2px;
+  background-color: white;
+  border-color: yellow;
+  border-style: solid;
+  font-size: larger;
+  font-family: "Comfortaa", cursive;
+  margin: 10px;
+  transition: 0.3s;
+}
+.start:hover {
+  border: none;
+  background-color: yellow;
+}
+.check {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  border-width: 2px;
+  background-color: white;
+  border-color: yellow;
+  border-style: solid;
+  font-size: larger;
+  font-family: "Comfortaa", cursive;
+  margin: 10px;
+  transition: 0.3s;
+}
+.check:hover {
+  border: none;
+  background-color: yellow;
+}
+.setBtn {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border-width: 2px;
+  background-color: white;
+  border-color: yellow;
+  border-style: solid;
+  font-size: larger;
+  font-family: "Comfortaa", cursive;
+  margin: 10px;
+  transition: 0.3s;
+}
+.setBtn:hover {
+  border: none;
+  background-color: yellow;
+}
+.settings,
+.secretModal {
+  position: fixed;
+  background: #00000033;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: translateY(100%);
+  transition: 0.5s;
+  z-index: 99999;
+  backdrop-filter: blur(10px);
+}
+.settings form,
+.secretModal form {
+  position: absolute;
+  background-color: black;
+  width: 90%;
+  max-width: 400px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  border-radius: 15px;
+  border-color: purple;
+  border-width: 10px;
+  border-style: solid;
+}
+h2 {
+  font-size: 30px;
+  color: white;
+}
+.settings button {
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 150px;
+  height: 70px;
+  border-width: 3px;
+  background-color: white;
+  border-color: purple;
+  border-style: solid;
+  font-size: larger;
+  font-family: "Comfortaa", cursive;
+  margin: 10px;
+  transition: 0.3s;
+  font-size: large;
+  font-family: "Comfortaa", cursive;
+}
+.settings button:hover {
+  border-color: yellow;
+}
+#entrName {
+  width: 250px;
+  height: 30px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  border-width: 2px;
+  border-color: purple;
+  font-size: 23px;
+  border-style: solid;
+  font-family: "Comfortaa", cursive;
+}
+#entrNameBtn {
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: purple;
+  font-family: "Comfortaa", cursive;
+  font-size: 25px;
+  margin: 15px;
+  transition: 0.3s;
+}
+#entrNameBtn:hover {
+  border-color: yellow;
+}
+.prpl {
+  background-color: purple;
+  height: 10px;
+  border: none;
+}
